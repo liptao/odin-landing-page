@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -97,4 +97,21 @@ a {
 
 .card-text {
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 60px 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    font-weight: 700;
+    text-align: right;
 }

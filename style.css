@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,11 +13,12 @@ a {
     color: #e5e7eb;
 }
 
-.header {
+.header, .hero {
     background-color: #1F2937;
-    padding: 16px;
+    margin: 0px;
+    padding: 30px 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
@@ -33,4 +34,36 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 8px
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+.koala {
+    width: 400px;
+    height: 100%;
 }

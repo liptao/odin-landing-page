@@ -67,3 +67,34 @@ a {
     width: 400px;
     height: 100%;
 }
+
+.information {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-image {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.card-text {
+    text-align: center;
+}
